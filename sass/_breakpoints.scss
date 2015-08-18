@@ -1,0 +1,74 @@
+@media (min-width: $screen-xs-min){
+
+}
+@media (min-width: $screen-sm-min){
+	.carousel__nav--prev,
+	.carousel__nav--next{
+		display: block;
+	}
+	.input__checkbox--caption{
+		margin-top: 10px;
+	}
+	.sponsors .row.content{
+		position: relative;
+		min-height: 71px;
+	}
+	.sponsor__isobar,
+	.sponsor__adclub,
+	.sponsor__piperi,
+	.sponsor__tannery {
+		width: auto;
+		position: absolute;
+	}
+	.sponsor__isobar {
+		left: 0;
+	}
+	.sponsor__adclub{
+		left: 28%;
+		margin-left: -36px;
+	}
+	.sponsor__piperi{
+		left: 55%;
+		margin-left: -100px;
+	}
+	.sponsor__tannery{
+		right: 0;
+	}
+}
+@media (min-width: $screen-md-min){
+	.nav__list{
+		text-align: right;
+	}
+	.carousel__blurb{
+		width: 70%;
+		float: left;
+	}
+	.carousel__donate {
+		margin: 15px 0 0 0;
+		float: right;
+		width: auto;
+		padding: .83333em 1em;
+	}
+	.input__checkbox--caption{
+		margin-top: 0;
+	}
+	.fund{
+		margin: 2em 0;
+		text-align: left;
+		font-size: 1.32857142857em;
+	}
+	.sponsor{
+		margin-bottom: 0;
+	}
+
+}
+@media (min-width: $screen-lg-min){
+	.owl-item {
+		width: 960px!important;
+		max-width: 960px!important;
+	}
+	.carousel__donate {
+		width: 233px;
+		padding: .83333em 1.6em;
+	}
+}
